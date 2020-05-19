@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         getWindowManager().getDefaultDisplay().getMetrics(metric);
         float density = metric.density;  // 屏幕密度（0.75 / 1.0 / 1.5）
         editor.putString("density",density+"");
+        editor.apply();
         Button contactButton = findViewById(R.id.button);
         Button animButton = findViewById(R.id.animTest);
         imageView = findViewById(R.id.img);
