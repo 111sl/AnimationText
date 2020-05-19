@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimationText</string>
+    <string name="mainButton">添加联系人到数据库</string>
+    <string name="moveContact">将联系人导入数据库</string>
+    <string name="show">展示数据库数据</string>
+    <string name="animTest">动画测试</string>
+</resources>
